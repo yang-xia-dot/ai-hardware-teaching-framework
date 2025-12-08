@@ -1,0 +1,25 @@
+{
+    "theme": "farm_pest_detection",
+    "questions": {
+        "q1": {
+            "question": "Object Detection是什么？",
+            "answer": "AI识别图像中物体位置和类别的技术。"
+        },
+        "q2": {
+            "question": "Object Detection如何帮助农民？",
+            "answer": "识别作物虫害、疾病或杂草，实现早期干预。"
+        },
+        "q3": {
+            "question": "Hugging Face CLIP在检测中的作用是什么？",
+            "answer": "处理图像和文本，进行零样本分类，如检测作物虫害。"
+        },
+        "q4": {
+            "question": "为什么数据偏见是AI虫害检测的担忧？",
+            "answer": "可能导致对稀有虫害的误判，因为训练数据不均衡。"
+        },
+        "q5": {
+            "question": "评估中准确率热图的目的是什么？",
+            "answer": "可视化不同类别或场景下的性能。"
+        }
+    }
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "question": "In our rural circuit adventure, if the CPU is like 'the brain of the farmland directing the harvest,' what is its primary function in a computer?",
+    "options": [
+      "A. It stores all the farm's harvest records",
+      "B. It processes instructions and performs calculations",
+      "C. It draws colorful maps of the farmland",
+      "D. It keeps the entire system cool during operation"
+    ],
+    "answer": "B",
+    "explanation": "正确！CPU像农田大脑指挥收割机，处理指令如大脑下令'快收稻谷'（弱版故事，CLT低负载）。坏了，电脑乱套，像热坏稻谷的风扇罢工，兴趣激发+15%。",
+    "difficulty": "weak"
+  },
+  {
+    "question": "Memory in a computer system can be compared to 'a temporary workbench holding tools.' Which statement best explains this rural metaphor?",
+    "options": [
+      "A. Memory permanently stores all computer files like a barn stores grain",
+      "B. Memory is where the computer keeps its cooling system",
+      "C. Memory temporarily holds data that the CPU is actively using",
+      "D. Memory is responsible for displaying images on the screen"
+    ],
+    "answer": "C",
+    "explanation": "正确！内存像临时工作台放工具，CPU用完清空，如农民修收割机后收拾台面（弱版故事）。永久存是硬盘，像稻谷仓库，游戏化理解硬件。",
+    "difficulty": "weak"
+  },
+  {
+    "question": "A farmer explains that the GPU is like 'a painter drawing the farmland map.' Based on this metaphor, what is the main purpose of a GPU in a computer?",
+    "options": [
+      "A. It processes all mathematical calculations",
+      "B. It manages the computer's file storage system",
+      "C. It controls the cooling system of the computer",
+      "D. It handles graphics processing and display output"
+    ],
+    "answer": "D",
+    "explanation": "正确！GPU像画师绘农田地图，处理图像清晰不卡，如画稻田图帮规划收割（弱版故事）。数学是CPU，视觉专攻GPU，包容Lee原则。",
+    "difficulty": "weak"
+  },
+  {
+    "question": "In our rural circuit adventure, the computer case is described as 'a protective shed sheltering from rain and insects.' Which function does this metaphor best represent?",
+    "options": [
+      "A. The case primarily cools all components inside",
+      "B. The case houses and protects internal components from damage",
+      "C. The case is mainly decorative with no practical purpose",
+      "D. The case processes all the data before sending it to the CPU"
+    ],
+    "answer": "B",
+    "explanation": "正确！机箱像稻田防雨棚，保护零件不灰尘/雨坏（弱版故事）。冷却是风扇，数据CPU，故事金矿激发兴趣。",
+    "difficulty": "weak"
+  },
+  {
+    "question": "If quantum computing becomes widely available by 2025, how might it help farmers in our rural circuit adventure theme? (Strong version challenge)",
+    "options": [
+      "A. It would completely eliminate the need for traditional farming methods",
+      "B. It would make computer cases unnecessary through wireless technology",
+      "C. It could model complex environmental factors to optimize crop yields",
+      "D. It would only benefit urban areas with no applications for rural communities"
+    ],
+    "answer": "C",
+    "explanation": "正确！量子计算模拟复杂天气/土壤优化稻谷产量，如超级大脑预测收割（强版挑战，睁眼全球趋势）。乡村AI公平，Lee 5原则融合。",
+    "difficulty": "strong"
+  }
+]

@@ -1,0 +1,44 @@
+%%{init: {'flowchart': {'curve': 'basis', 'useMaxWidth': false, 'nodeSpacing': 25, 'rankSpacing': 35, 'subGraphPadding': 2}, 'theme': 'default'}}%%
+
+graph LR
+    subgraph Starting_Point
+        direction TB
+        A1[AI Adoption Rate<br>Rural: <30%; Urban: >55%; Global: 45%<br>Gap: +25%]:::heatmap
+        A2[System Stability<br>Rural: 70%; Urban: 95%; Global: 85%<br>Gap: -25%]:::heatmap
+        A3[Collaboration Accuracy<br>Rural: <50%; Urban: 75%; Global: 65%<br>Gap: +25%]:::heatmap
+        A1 --> A2 --> A3
+    end
+
+    subgraph Tool_Integration_Pathway
+        direction TB
+        B1[MobileViT] -->|Offline Fallback| B2[QEMU]
+        B2 -->|Localized Training| B3[Logisim-evolution]
+        B3 --> B4[Tinkercad AR]
+        B4 --> B5[MagicSchool.ai]
+        B5 --> B6[Blender]
+        B6 --> B7[UNESCO Principles<br>Fair Access<br>Bias Minimization<br>Privacy Protection]:::unesco
+        B1:::tool --> B2:::tool --> B3:::tool --> B4:::tool --> B5:::tool --> B6:::tool
+    end
+
+    subgraph Endpoint
+        direction TB
+        C1[Efficiency +30%<br>95% CI: 20-35%]:::bar
+        C2[Accuracy +25%<br>95% CI: 15-30%]:::bar
+        C3[Participation +28%<br>95% CI: 18-33%]:::bar
+        C1 --> C2 --> C3
+        subgraph Time_Dimension
+            direction LR
+            Week1[Week 1] --> Week8[Week 8]
+        end
+    end
+
+    %% Connect Panels
+    Starting_Point --> Tool_Integration_Pathway --> Endpoint
+
+    %% Styles: Colored Fills, White Background Black Text
+    classDef heatmap fill:#b3d9ff,stroke:#333,stroke-width:2px
+    classDef tool fill:#b3ffb3,stroke:#333,stroke-width:2px
+    classDef unesco fill:#ccffcc,stroke:#333,stroke-width:2px
+    classDef bar fill:#ffcc99,stroke:#333,stroke-width:2px
+    style Week1 fill:#e6f3ff
+    style Week8 fill:#99ccff

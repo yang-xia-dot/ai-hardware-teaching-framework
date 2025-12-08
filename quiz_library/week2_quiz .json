@@ -1,0 +1,29 @@
+{
+  "title": "Week 2 Quiz: OS Disassembly + CLIP Matching (Connect to Week 1 CPU)",
+  "description": "3 questions, adaptive difficulty, rural localization with farm machinery examples. JSON format for easy load in py script.",
+  "questions": [
+    {
+      "question": "In OS disassembly (connect to Week 1 CPU simulation), what step is like loosening a tractor chip screw?",
+      "options": ["A. Load ISO file", "B. Run Logisim circuit", "C. Export AR QR", "D. Match CLIP text"],
+      "correct": "A",
+      "difficulty": "easy",
+      "explanation": "Loading ISO in QEMU is the first disassembly step, extending Week 1 CPU farmland brain to OS preload."
+    },
+    {
+      "question": "Using CLIP matching, 'Chip like farmland screw' best matches which Week 1 circuit element?",
+      "options": ["A. CPU signal wire", "B. Memory storage box", "C. GPU paint tool", "D. Fan cooling guard"],
+      "correct": "A",
+      "difficulty": "medium",
+      "explanation": "CLIP text-image match connects Week 1 Logisim CPU (farmland brain) to Week 2 screw-like disassembly."
+    },
+    {
+      "question": "For low-resource fallback in Week 2, what is the best way to simulate OS preload without QEMU lag?",
+      "options": ["A. Use Alpine ISO 200MB + tcg", "B. Run full Ubuntu 4GB", "C. Install physical hardware", "D. Skip to Week 1 Logisim"],
+      "correct": "A",
+      "difficulty": "hard",
+      "explanation": "Alpine ISO + tcg acceleration is the optimized fallback for QEMU, ensuring rural 2G compatibility while connecting to Week 1 CPU concepts."
+    }
+  ],
+  "total": 3,
+  "adaptive_note": "If score <2, simplify to Week 1 basics; >=2, challenge with global OS trends."
+}

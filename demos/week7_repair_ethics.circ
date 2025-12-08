@@ -1,0 +1,6 @@
+<project version="1.0">
+  <circuit name="Ethics Repair Demo">
+    <comp lib="0" name="NAND Gate" loc="(100,100)"/>
+    <!-- Simulated circuit for data ethics in repair -->
+  </circuit>
+</project>

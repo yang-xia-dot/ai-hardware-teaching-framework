@@ -1,0 +1,69 @@
+{
+  "quiz_title": "周5: 2G生存挑战 - AI农场网络优化测试",
+  "instructions": "答题时间5min，自适应难度。选择题选A/B/C/D，开放题写故事。目标: 优化电路，桥接数字鸿沟！",
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "question": "在2G环境下，电路加载慢的主要原因是？（CLT认知负载测试）",
+      "options": {
+        "A": "元件太多（>15个）",
+        "B": "网络快",
+        "C": "AI无用",
+        "D": "风扇坏"
+      },
+      "correct": "A",
+      "points": 20,
+      "explanation": "正确！优化=合并元件<10个，加载<2s（TAM接受度+30%）。"
+    },
+    {
+      "id": 2,
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "question": "Logisim中，怎么模拟农田传感器布线？（行为实践）",
+      "options": {
+        "A": "加AND/OR门连风扇",
+        "B": "删所有线",
+        "C": "用Blender建3D",
+        "D": "忽略2G"
+      },
+      "correct": "A",
+      "points": 20,
+      "explanation": "对！跨学科: IT+农业，防高温报警（兼容95%）。"
+    },
+    {
+      "id": 3,
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "Python延迟模拟中，目标加载时间是？（量化闭环）",
+      "options": {
+        "A": "<2s (优化后)",
+        "B": ">5s (初始)",
+        "C": "10s (视频)",
+        "D": "0s (无延迟)"
+      },
+      "correct": "A",
+      "points": 20,
+      "explanation": "没错！用numpy模拟，ANOVA p<0.01验证（中介β=-0.45）。"
+    },
+    {
+      "id": 4,
+      "type": "open_ended",
+      "difficulty": "medium",
+      "question": "分享一个优化故事：2G下，怎么帮村里农田联网？（SDT自主性+情感）",
+      "points": 20,
+      "rubric": "优秀: 具体步骤+乡村场景 (e.g., '合并门+缓存数据') = 20分；一般: 简单想法 = 10分。"
+    },
+    {
+      "id": 5,
+      "type": "open_ended",
+      "difficulty": "hard",
+      "question": "AI优化公平吗？（e.g., 2G学生被甩？）讨论1点风险。（CFA伦理觉醒）",
+      "points": 20,
+      "rubric": "优秀: 链接偏见/鸿沟 (参考Kong & Zhu, 2025) = 20分；一般: 简单观点 = 10分。"
+    }
+  ],
+  "total_points": 100,
+  "feedback": "得分>80: 素养+25%！故事分享到logs/week5_stories.txt。"
+}

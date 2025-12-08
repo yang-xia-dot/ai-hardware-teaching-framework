@@ -1,0 +1,5 @@
+1. Rural students struggle with visualizing circuit delays on low-bandwidth 2G networks.
+2. Limited hardware access makes AR integration challenging for basic level learners.
+3. Advanced students need deeper ViT ethics discussions but lack real-world cases.
+4. Personalization increases engagement but requires low-resource compatible quizzes.
+5. Farm sensor optimization demos are abstract without 3D visuals.

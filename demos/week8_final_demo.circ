@@ -1,0 +1,6 @@
+<project version="1.0">
+  <circuit name="Final AI Farm Demo">
+    <comp lib="0" name="Sensor Array" loc="(100,100)"/>
+    <!-- Integrated 8-week project -->
+  </circuit>
+</project>

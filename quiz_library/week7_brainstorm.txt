@@ -1,0 +1,5 @@
+1. Rural students may overlook data privacy risks in AI hardware like farm sensors.
+2. Limited awareness of ViT biases in low-resource environments leads to unfair crop detection.
+3. Ethical dilemmas in virtual OS repair (e.g., QEMU logs) are not discussed in villages.
+4. UNESCO principles are abstract without native role-playing scenarios.
+5. CFA awakening to AI ethics requires more cross-disciplinary stories for high schoolers.

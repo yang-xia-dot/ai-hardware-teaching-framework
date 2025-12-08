@@ -1,0 +1,193 @@
+{
+"levels": {
+"基础": {
+"title": "基础农场路径Quiz: 简单安装冒险",
+"instructions": "3题选择+2开放，轻松起步！总100分。",
+"questions": [
+{
+"id": 1,
+"type": "multiple_choice",
+"question": "安装OS第一步？",
+"options": {
+"A": "下载ISO",
+"B": "重启电脑",
+"C": "忽略2G",
+"D": "加故事"
+},
+"correct": "A",
+"points": 20,
+"explanation": "基础: 先下载Ubuntu ISO（本地缓存）。"
+},
+{
+"id": 2,
+"type": "multiple_choice",
+"question": "2G下怎么缓存路径？",
+"options": {
+"A": "离线JSON",
+"B": "云端上传",
+"C": "删元件",
+"D": "无缓存"
+},
+"correct": "A",
+"points": 20,
+"explanation": "对！本地保存quiz，防断网。"
+},
+{
+"id": 3,
+"type": "multiple_choice",
+"question": "Transformer像农场路径？",
+"options": {
+"A": "直线统一",
+"B": "分叉自适应",
+"C": "忽略水平",
+"D": "只高级"
+},
+"correct": "B",
+"points": 20,
+"explanation": "简单版: 根据水平分叉。"
+},
+{
+"id": 4,
+"type": "open_ended",
+"question": "你的简单安装故事？",
+"points": 20,
+"rubric": "写1步 (e.g., '下载ISO') = 20分。"
+},
+{
+"id": 5,
+"type": "open_ended",
+"question": "基础路径怎么帮村？",
+"points": 20,
+"rubric": "乡村想法 = 20分。"
+}
+],
+"total_points": 100
+},
+"中等": {
+"title": "中等农场路径Quiz: Transformer故事解锁",
+"instructions": "3题选择+2开放，加故事趣味！总100分。",
+"questions": [
+{
+"id": 1,
+"type": "multiple_choice",
+"question": "Transformer在路径中像？",
+"options": {
+"A": "农场分叉故事",
+"B": "直线安装",
+"C": "忽略伦理",
+"D": "高级优化"
+},
+"correct": "A",
+"points": 20,
+"explanation": "中等: 故事自适应湿度检测。"
+},
+{
+"id": 2,
+"type": "multiple_choice",
+"question": "中等prompt示例？",
+"options": {
+"A": "生成故事+2G缓存",
+"B": "只基础步骤",
+"C": "无API",
+"D": "删缓存"
+},
+"correct": "A",
+"points": 20,
+"explanation": "对！融入作物预测故事。"
+},
+{
+"id": 3,
+"type": "multiple_choice",
+"question": "SEM β=0.45意思？",
+"options": {
+"A": "意向正提升",
+"B": "风险负相关",
+"C": "0.10无影响",
+"D": "1.00完美"
+},
+"correct": "A",
+"points": 20,
+"explanation": "中等: 路径→意向+20% (Han et al.)。"
+},
+{
+"id": 4,
+"type": "open_ended",
+"question": "中等故事: Transformer怎么连湿度quiz？",
+"points": 20,
+"rubric": "加1场景 (e.g., '分叉预测干旱') = 20分。"
+},
+{
+"id": 5,
+"type": "open_ended",
+"question": "你的中等路径风险？",
+"points": 20,
+"rubric": "讨论偏见 = 20分。"
+}
+],
+"total_points": 100
+},
+"高级": {
+"title": "高级农场路径Quiz: 优化伦理挑战",
+"instructions": "3题选择+2开放，深度思考！总100分。",
+"questions": [
+{
+"id": 1,
+"type": "multiple_choice",
+"question": "高级prompt优化？",
+"options": {
+"A": "加伦理+SEM模拟",
+"B": "只简单步骤",
+"C": "忽略2G",
+"D": "无故事"
+},
+"correct": "A",
+"points": 20,
+"explanation": "高级: 路径+风险辩论 (Kong & Zhu)。"
+},
+{
+"id": 2,
+"type": "multiple_choice",
+"question": "ANOVA p<0.01在路径中？",
+"options": {
+"A": "显著自适应",
+"B": "无差异",
+"C": "0.10中等",
+"D": "1.00随机"
+},
+"correct": "A",
+"points": 20,
+"explanation": "对！验证意向提升 (Han et al.路径)。"
+},
+{
+"id": 3,
+"type": "multiple_choice",
+"question": "CFA觉醒风险？",
+"options": {
+"A": "偏见甩弱生",
+"B": "统一路径好",
+"C": "无伦理",
+"D": "API免费"
+},
+"correct": "A",
+"points": 20,
+"explanation": "高级: 讨论数据公平。"
+},
+{
+"id": 4,
+"type": "open_ended",
+"question": "高级优化: prompt怎么加作物预测伦理？",
+"points": 20,
+"rubric": "具体+辩论 (e.g., '偏见防干旱误判') = 20分。"
+},
+{
+"id": 5,
+"type": "open_ended",
+"question": "你的高级路径全球启发？",
+"points": 20,
+"rubric": "链接摩洛哥案例 = 20分。"
+}
+],
+"total_points": 100
+}
+}
+}

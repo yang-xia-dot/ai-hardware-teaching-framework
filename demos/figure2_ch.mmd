@@ -1,0 +1,53 @@
+%%{init: {'flowchart': {'curve': 'basis', 'useMaxWidth': false, 'nodeSpacing': 25, 'rankSpacing': 35, 'subGraphPadding': 2}, 'theme': 'default'}}%%
+
+graph LR
+    subgraph "左侧: PRISMA文献筛选过程"
+        direction TB
+        Start["识别<br>约1200篇"]
+        Duplicate{"去除重复？"}
+        Screen["筛选<br>约800篇"]
+        TitleAbstract{"标题/摘要相关？"}
+        Eligibility["资格评估<br>全文阅读约150篇"]
+        Included["纳入<br>最终27篇"]
+        
+        Start --> Duplicate
+        Duplicate -- 是<br>重复去除后剩余800篇 --> Screen
+        Duplicate -- 否 --> Termination1["结束"]
+        Screen --> TitleAbstract
+        TitleAbstract -- 是 --> Eligibility
+        TitleAbstract -- 否 --> Termination2["结束"]
+        Eligibility --> Included
+    end
+
+    subgraph "右侧: 理论模型整合散点图"
+        direction LR
+        XAxis["X轴: 理论变量<br>(SDT自主性, CLT负荷, TAM接受)"]
+        YAxis["Y轴: 整合效应量<br>(Cohen's d 0-1)"]
+        Scatter1["点1<br>ViT与SEM路径β=0.35"]
+        Scatter2["点2<br>另一个点"]
+        Scatter3["点3<br>等"]
+        
+        XAxis --- Scatter1 --- Scatter2 --- Scatter3
+        YAxis --- Scatter1
+    end
+
+    %% 箭头步骤: 逻辑流
+    Included -.->|从筛选到理论路径整合| Scatter1
+
+    %% 样式: 灰蓝色方案，模仿 figure3
+    classDef rect fill:#a8c8e8,stroke:#333,stroke-width:2px,color:#000
+    classDef diamond fill:#d8e8f8,stroke:#0277bd,stroke-width:2px,color:#000
+    classDef termination fill:#f0f0f0,stroke:#999,stroke-width:1px,color:#000
+    classDef scatter fill:#ff9999,stroke:#cc0000,stroke-width:2px,color:#000
+    classDef axis fill:#e0e0e0,stroke:#666,stroke-width:1px,color:#000
+    classDef edge_step stroke-width:2px,stroke:#333
+    classDef edge_div stroke-width:2px,stroke:#999,stroke-dasharray:5,5
+
+    class Start,Screen,Eligibility,Included rect
+    class Duplicate,TitleAbstract diamond
+    class Termination1,Termination2 termination
+    class Scatter1,Scatter2,Scatter3 scatter
+    class XAxis,YAxis axis
+
+    linkStyle 0,1,2,3,4,5 edge_step
+    linkStyle 6 edge_div

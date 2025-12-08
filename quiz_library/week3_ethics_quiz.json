@@ -1,0 +1,54 @@
+{
+    "questions": [
+        {
+            "question": "量子芯片相比真空管的主要优势是什么？ (What is the main advantage of quantum chips compared to vacuum tubes?)",
+            "options": [
+                "A. 体积更大 (A. Larger size)",
+                "B. 计算更快 (B. Faster computation)",
+                "C. 能耗更高 (C. Higher energy consumption)",
+                "D. 兼容性差 (D. Poor compatibility)"
+            ],
+            "correct": "B"
+        },
+        {
+            "question": "在乡村OS升级中，隐私泄露的风险如何体现？ (How does the risk of privacy leakage manifest in rural OS upgrades?)",
+            "options": [
+                "A. 数据被城市公司垄断 (A. Data monopolized by urban companies)",
+                "B. 网速变快 (B. Faster internet speed)",
+                "C. 芯片演变无关 (C. Unrelated to chip evolution)",
+                "D. 公平性提升 (D. Increased fairness)"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "芯片从真空管到量子的演变对乡村发展的影响是什么？ (What is the impact of chip evolution from vacuum tubes to quantum on rural development?)",
+            "options": [
+                "A. 加剧城乡鸿沟 (A. Widens urban-rural divide)",
+                "B. 减少技术依赖 (B. Reduces technology dependence)",
+                "C. 提升可持续性 (C. Enhances sustainability)",
+                "D. 忽略设计原则 (D. Ignores design principles)"
+            ],
+            "correct": "C"
+        },
+        {
+            "question": "OS安装中的公平性原则指的是什么？ (What does the fairness principle in OS installation refer to?)",
+            "options": [
+                "A. 确保城乡数据平等 (A. Ensuring equal data access in urban and rural areas)",
+                "B. 增加安装复杂度 (B. Increasing installation complexity)",
+                "C. 忽略隐私风险 (C. Ignoring privacy risks)",
+                "D. 仅适用于量子芯片 (D. Only applicable to quantum chips)"
+            ],
+            "correct": "A"
+        },
+        {
+            "question": "量子OS未来如何改变乡村农业？ (How will quantum OS change rural agriculture in the future?)",
+            "options": [
+                "A. 通过AI优化作物管理，但需注意伦理偏见 (A. Optimize crop management via AI, but beware of ethical biases)",
+                "B. 使农业回归手工 (B. Return agriculture to manual labor)",
+                "C. 增加数据泄露 (C. Increase data leaks)",
+                "D. 无任何影响 (D. No impact at all)"
+            ],
+            "correct": "A"
+        }
+    ]
+}

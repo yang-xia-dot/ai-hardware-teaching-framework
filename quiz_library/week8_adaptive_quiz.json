@@ -1,0 +1,60 @@
+{
+  "week": 8,
+  "theme": "Pinnacle Showdown - Showcase Summit",
+  "description": "This adaptive quiz summarizes the 8-week module, assessing overall AI literacy, interest growth, and project integration. Divided into three levels: Basic (basic recap), Intermediate (project showcase), Advanced (global trends report). Likert scale: 1 (Strongly Disagree) to 5 (Strongly Agree). 8 questions total, adaptive per level for final evaluation.",
+  "levels": {
+    "Basic": {
+      "questions": [
+        {
+          "id": 1,
+          "question": "The hardware simulations (e.g., Logisim circuits) helped me understand basic computer assembly.",
+          "type": "likert"
+        },
+        {
+          "id": 2,
+          "question": "I feel more confident in low-resource AI applications after the 8 weeks.",
+          "type": "likert"
+        }
+      ]
+    },
+    "Intermediate": {
+      "questions": [
+        {
+          "id": 3,
+          "question": "My project demo integrated ethics and optimization effectively.",
+          "type": "likert"
+        },
+        {
+          "id": 4,
+          "question": "The voting and showcase boosted my interest in rural AI projects.",
+          "type": "likert"
+        },
+        {
+          "id": 5,
+          "question": "UNESCO principles were useful in my farm circuit design.",
+          "type": "likert"
+        }
+      ]
+    },
+    "Advanced": {
+      "questions": [
+        {
+          "id": 6,
+          "question": "The SDT+TAM paths (Han et al., 2025) explain my literacy growth over 8 weeks.",
+          "type": "likert"
+        },
+        {
+          "id": 7,
+          "question": "Global trends like quantum AI will impact rural education (Panjwani, 2024).",
+          "type": "likert"
+        },
+        {
+          "id": 8,
+          "question": "My overall AI literacy improved by at least 25% through the module.",
+          "type": "likert"
+        }
+      ]
+    }
+  },
+  "instructions": "Assign questions based on student level: 8 Basic, 9 Intermediate, 8 Advanced. Simulate responses with numpy normal distribution (mean 3.5 pre, 4.3 post). Save to quiz_library/week8_adaptive_quiz.json."
+}

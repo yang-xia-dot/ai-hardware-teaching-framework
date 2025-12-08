@@ -1,0 +1,53 @@
+%%{init: {'flowchart': {'curve': 'basis', 'useMaxWidth': false, 'nodeSpacing': 25, 'rankSpacing': 35, 'subGraphPadding': 2}, 'theme': 'default'}}%%
+
+graph LR
+    subgraph "Left: PRISMA Literature Screening Process"
+        direction TB
+        Start["Identification<br>Approx 1200 articles"]
+        Duplicate{"Duplicate Removal?"}
+        Screen["Screening<br>Approx 800 articles"]
+        TitleAbstract{"Title/Abstract Relevant?"}
+        Eligibility["Eligibility Assessment<br>Full-text reading approx 150 articles"]
+        Included["Inclusion<br>Final 27 articles"]
+        
+        Start --> Duplicate
+        Duplicate -- Yes<br>800 remaining after duplicates removed --> Screen
+        Duplicate -- No --> Termination1["End"]
+        Screen --> TitleAbstract
+        TitleAbstract -- Yes --> Eligibility
+        TitleAbstract -- No --> Termination2["End"]
+        Eligibility --> Included
+    end
+
+    subgraph "Right: Theoretical Model Integration Scatter Plot"
+        direction LR
+        XAxis["X-axis: Theoretical Variables<br>(SDT Autonomy, CLT Load, TAM Acceptance)"]
+        YAxis["Y-axis: Integration Effect Size<br>(Cohen's d 0-1)"]
+        Scatter1["Point1<br>ViT and SEM path β=0.35"]
+        Scatter2["Point2<br>Another point"]
+        Scatter3["Point3<br>Etc."]
+        
+        XAxis --- Scatter1 --- Scatter2 --- Scatter3
+        YAxis --- Scatter1
+    end
+
+    %% Arrow Steps: Logic Flow
+    Included -.->|From screening to theoretical path integration| Scatter1
+
+    %% Styles: Gray-blue scheme, mimicking figure3
+    classDef rect fill:#a8c8e8,stroke:#333,stroke-width:2px,color:#000
+    classDef diamond fill:#d8e8f8,stroke:#0277bd,stroke-width:2px,color:#000
+    classDef termination fill:#f0f0f0,stroke:#999,stroke-width:1px,color:#000
+    classDef scatter fill:#ff9999,stroke:#cc0000,stroke-width:2px,color:#000
+    classDef axis fill:#e0e0e0,stroke:#666,stroke-width:1px,color:#000
+    classDef edge_step stroke-width:2px,stroke:#333
+    classDef edge_div stroke-width:2px,stroke:#999,stroke-dasharray:5,5
+
+    class Start,Screen,Eligibility,Included rect
+    class Duplicate,TitleAbstract diamond
+    class Termination1,Termination2 termination
+    class Scatter1,Scatter2,Scatter3 scatter
+    class XAxis,YAxis axis
+
+    linkStyle 0,1,2,3,4,5 edge_step
+    linkStyle 6 edge_div

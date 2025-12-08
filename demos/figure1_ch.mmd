@@ -1,0 +1,44 @@
+%%{init: {'flowchart': {'curve': 'basis', 'useMaxWidth': false, 'nodeSpacing': 25, 'rankSpacing': 35, 'subGraphPadding': 2}, 'theme': 'default'}}%%
+
+graph LR
+    subgraph "起点 (左侧)"
+        direction TB
+        A1[AI应用率<br>农村: <30%; 城市: >55%; 全球: 45%<br>差距: +25%]:::heatmap
+        A2[系统稳定性<br>农村: 70%; 城市: 95%; 全球: 85%<br>差距: -25%]:::heatmap
+        A3[协作准确率<br>农村: <50%; 城市: 75%; 全球: 65%<br>差距: +25%]:::heatmap
+        A1 --> A2 --> A3
+    end
+
+    subgraph "工具整合路径 (中间)"
+        direction LR
+        B1[MobileViT] -->|离线回退| B2[QEMU]
+        B2 -->|本土训练| B3[Logisim-evolution]
+        B3 --> B4[Tinkercad AR]
+        B4 --> B5[MagicSchool.ai]
+        B5 --> B6[Blender]
+        B6 --> B7[UNESCO原则<br>公平访问<br>偏见最小化<br>隐私保护]
+        B1:::tool --> B2:::tool --> B3:::tool --> B4:::tool --> B5:::tool --> B6:::tool --> B7:::unesco
+    end
+
+    subgraph "终点 (右侧)"
+        direction TB
+        C1[效率 +30%<br>95% CI: 20-35%]:::bar
+        C2[准确率 +25%<br>95% CI: 15-30%]:::bar
+        C3[参与率 +28%<br>95% CI: 18-33%]:::bar
+        C1 --> C2 --> C3
+        subgraph 时间维度
+            direction LR
+            Week1[周1] --> Week8[周8]
+        end
+    end
+
+    %% 连接面板
+    起点 --> 工具整合路径 --> 终点
+
+    %% 样式: 彩色填充、白底黑字
+    classDef heatmap fill:#b3d9ff,stroke:#333,stroke-width:2px
+    classDef tool fill:#b3ffb3,stroke:#333,stroke-width:2px
+    classDef unesco fill:#ccffcc,stroke:#333,stroke-width:2px
+    classDef bar fill:#ffcc99,stroke:#333,stroke-width:2px
+    style Week1 fill:#e6f3ff
+    style Week8 fill:#99ccff

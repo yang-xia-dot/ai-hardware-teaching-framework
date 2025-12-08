@@ -1,0 +1,6 @@
+Scene: Rural Farm Data Leak
+Characters: Farmer (Basic: Privacy victim), Engineer (Intermediate: Bias fixer), Expert (Advanced: UNESCO debater)
+
+Farmer: My corn sensor data was leaked to the city company!
+Engineer: That's ViT bias from urban training data. Let's fix with fair ethics.
+Expert: Per UNESCO, we need 5 principles for equity. Debate: Pros vs cons?

@@ -1,0 +1,70 @@
+{
+"week": 7,
+"theme": "Ethics Maze - Performance Theater",
+"description": "This quiz assesses students' understanding of AI hardware/software ethics, focusing on privacy risks, biases in ViT applications, and UNESCO digital equity principles. Divided into three levels: Basic (fundamental privacy), Intermediate (bias identification), Advanced (global trends and CFA awakening). Likert scale: 1 (Strongly Disagree) to 5 (Strongly Agree). 10 questions total, adaptive per level.",
+"levels": {
+"Basic": {
+"questions": [
+{
+"id": 1,
+"question": "AI hardware like sensors in rural farms can leak personal data if not protected.",
+"type": "likert"
+},
+{
+"id": 2,
+"question": "Basic privacy risks in computer maintenance include sharing logs without consent.",
+"type": "likert"
+},
+{
+"id": 3,
+"question": "Ethical use of AI means considering how it affects village communities.",
+"type": "likert"
+}
+]
+},
+"Intermediate": {
+"questions": [
+{
+"id": 4,
+"question": "ViT models can introduce biases in farm crop detection if trained on urban data.",
+"type": "likert"
+},
+{
+"id": 5,
+"question": "Role-playing ethics scenarios helps identify biases in hardware simulations.",
+"type": "likert"
+},
+{
+"id": 6,
+"question": "In low-resource settings, AI ethics should prioritize data fairness for all users.",
+"type": "likert"
+},
+{
+"id": 7,
+"question": "Repairing virtual OS (like QEMU) involves ethical handling of simulated data.",
+"type": "likert"
+}
+]
+},
+"Advanced": {
+"questions": [
+{
+"id": 8,
+"question": "UNESCO's 5 principles can mitigate global AI biases in rural education.",
+"type": "likert"
+},
+{
+"id": 9,
+"question": "CFA validation (Kong & Zhu, 2025) enhances awakening to AI ethical challenges.",
+"type": "likert"
+},
+{
+"id": 10,
+"question": "SDT+TAM paths (Han et al., 2025) link autonomy to ethical acceptance in ViT apps.",
+"type": "likert"
+}
+]
+}
+},
+"instructions": "Assign questions based on student level: 8 Basic, 9 Intermediate, 8 Advanced. Simulate responses with numpy normal distribution (mean 3.0 pre, 4.2 post). Save to quiz_library/week7_ethics_quiz.json."
+}
